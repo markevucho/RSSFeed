@@ -1,0 +1,1 @@
+create table if not exists RSSFeed (GUID varchar(255) not null, DESCRIPTION varchar(1000), ENCLOSURE varchar(255), LINK varchar(255), PUBDATE date, TITLE varchar(100), primary key (GUID))
